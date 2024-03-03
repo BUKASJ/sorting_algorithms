@@ -36,6 +36,7 @@ void print_list(const listint_t *list);
 void quick_sort_recursive(int *array, int low, int high, size_t size);
 void swap(int *a, int *b);
 int partition(int *array, int low, int high, size_t size);
+void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
 
 
 #endif /* SORT_H */
